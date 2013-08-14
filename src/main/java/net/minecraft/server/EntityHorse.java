@@ -1083,7 +1083,7 @@ public class EntityHorse extends EntityAnimal implements IInventoryListener {
                 i1 = this.random.nextInt(7);
             }
 
-            int j1 = this.random.nextInt(5);
+            int j1 = this.random.nextInt(9);
 
             if (j1 < 4) {
                 i1 |= this.getVariant() & '\uff00';
